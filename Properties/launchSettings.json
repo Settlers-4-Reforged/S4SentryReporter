@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "S4SentryReporter": {
+      "commandName": "Project",
+      "commandLineArgs": "error \"E:\\Games\\Siedler\\thesettlers4\\plugins\\Forge\\CrashRpt\\report.json\""
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Games\\Siedler\\thesettlers4\\plugins\\Forge\\CrashRpt\\ForgeCrashReporter.exe"
+    }
+  }
+}

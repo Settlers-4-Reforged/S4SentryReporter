@@ -30,7 +30,23 @@
                        Text="What happened?"/>
             <TextBox Name="ReasonText" Watermark="I moved my unit to X and deleted building Y" TextWrapping="Wrap" AcceptsReturn="True" Height="100" />
 
-            
+            <Border Background="#f3f2f5" Height="2" Width="455" Margin="0 10 0 10"/>
+
+
+            <TextBlock TextWrapping="Wrap" FontWeight="ExtraBold" Foreground="#546272"
+                       Text="Report Info:"/>
+            <TextBlock Name="ExceptionInfoBlock" Text="" FontWeight="Light"/>
+            <Button Click="ShowDetails" Content="More details" Margin="0" Padding="0" FontSize="10" FontWeight="Light" Background="Transparent" Foreground="Gray">
+                <Button.Styles>
+                    <Style>
+                        <Style.Resources>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver">Transparent</SolidColorBrush>
+                            <SolidColorBrush x:Key="ButtonBackgroundPressed">Transparent</SolidColorBrush>
+                        </Style.Resources>
+                    </Style>
+                </Button.Styles>
+            </Button>
+
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Spacing="15">

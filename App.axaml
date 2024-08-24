@@ -4,6 +4,7 @@
              RequestedThemeVariant="Light">
     <Application.Resources>
         <FontFamily x:Key="MainFont">avares://S4SentryReporter/Assets/Fonts#Nunito</FontFamily>
+        <FontFamily x:Key="CodeFont">avares://S4SentryReporter/Assets/Fonts#Source Code Pro</FontFamily>
     </Application.Resources>
 
     <Application.Styles>
